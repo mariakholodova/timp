@@ -14,7 +14,7 @@ int main(void)
 	if (pow(a,b)>INT_MAX || pow(a,b)<INT_MIN){
 		printf("Out of range!");
 	}else{
-		printf("%f",pow(a,b));
+		printf("%d\n",(int)pow(a,b));
 	}
 
 	return 0;
