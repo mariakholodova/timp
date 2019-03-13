@@ -63,11 +63,6 @@ int main()
 	scanf("%d",&z);
 	removeFirst(spisok,z);
 	print(spisok);
-	
-	int r;
-	scanf("%d",&r);
-	removeLast(spisok);
-	print(spisok);
 
 	clear(spisok);
 	return 0;
