@@ -66,8 +66,8 @@ int main()
 	
 	int r;
 	scanf("%d",&r);
-	removeLast(lst,r);
-	print(lst);
+	removeLast(spisok);
+	print(spisok);
 
 	clear(spisok);
 	return 0;
