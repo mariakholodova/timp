@@ -20,6 +20,7 @@ int push_back(struct list2* spisok, int x);
 int push_front(struct list2* spisok,int x);
 int clear(struct list2* spisok);
 void _remove(struct list2* spisok, struct point *tmp);
+int removeFirst(struct list2* spisok,int x);
 int removeLast(struct list2* spisok,int x);
 int insertAfter	(struct list2* spisok,int num, int data);
 int insertBefore(struct list2* spisok,int num, int data);
