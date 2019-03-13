@@ -40,7 +40,7 @@ int main()
 		if(find(spisok,k[i])!=NULL)
 			printf("1");
 		else
-			printf("NULL");
+			printf("0");
 	}
 	printf("\n");
 
