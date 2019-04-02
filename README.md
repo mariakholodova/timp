@@ -57,7 +57,7 @@ ___________________________
 |5 3 7 2 4 6 8| 2 4 3 6 8 7 5|
 
 Скрин работы:
-- [Скриншот 1](https://github.com/mariakholodova/timp/blob/pr3/1.jpg 'Тык')
+- [Скриншот 1](https://github.com/mariakholodova/timp/blob/pr5/5.PNG 'Тык')
 
 
 
