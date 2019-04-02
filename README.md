@@ -5,7 +5,7 @@
 - структура для хранения дерева.
 А так же функции инициализации пустого дерева, удаления и добавления элементов, поска по значению, левого и правого вращения, вывода поддерева начиная с определенно узла
 
-Методическое пособине находится на сайте [http://edu.fb.tusur.ru/](http://edu.fb.tusur.ru)
+Методическое пособие находится на сайте [http://edu.fb.tusur.ru/](http://edu.fb.tusur.ru)
 
 Отчет оформлен по [markdown'у](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet 'Тык').
 ________________________________________________
@@ -80,9 +80,8 @@ ___________________________
 ||-------4|
 ||---------------5|
 
-Скрины работы:
-- [Скриншот 1](https://github.com/mariakholodova/timp/blob/pr3/1.jpg 'Тык')
-- [Скриншот 2](https://github.com/mariakholodova/timp/blob/pr3/2.jpg 'Тык')
+Скрин работы:
+- [Скриншот](https://github.com/mariakholodova/timp/blob/pr4/4.PNG 'Тык')
 
 
 
