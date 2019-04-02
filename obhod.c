@@ -221,9 +221,8 @@ void print_obratni(tree* t){
 int main(){
     tree* Tree = malloc(sizeof(tree));
     init(Tree);
-    int t,m,res=0;
-    scanf("%d".&m);
-    for(int i=0;i<m;i++){
+    int t,res=0;
+    for(int i=0;i<7;i++){
         scanf("%d",&t);
         insert(Tree,t);
     }
@@ -242,7 +241,7 @@ void printTree(tree* t){
         nodes_to_print[0] = malloc(sizeof(node)*32);
         nodes_to_print[1] = malloc(sizeof(node)*32);
         int next_free_pos[2]={0,0},values_for_printing[2]={0,0},is_1=1;
-        printf("%d\n", t->root->data);
+        printf("%d ", t->root->data);
         nodes_to_print[0][next_free_pos[0]]=t->root->l;
         next_free_pos[0]++;
         nodes_to_print[0][next_free_pos[0]]=t->root->r;
@@ -260,12 +259,6 @@ void printTree(tree* t){
                     next_free_pos[is_1]++;
                     if(nodes_to_print[1-is_1][i]->l!=0 || nodes_to_print[1-is_1][i]->r!=0)
                         values_for_printing[is_1]=1;
-                }else{
-                    printf("_");
-                    nodes_to_print[is_1][next_free_pos[is_1]]=0;
-                    next_free_pos[is_1]++;
-                    nodes_to_print[is_1][next_free_pos[is_1]]=0;
-                    next_free_pos[is_1]++;
                 }
                 if(i+1!=next_free_pos[1-is_1]){
                     printf(" ");
@@ -276,7 +269,8 @@ void printTree(tree* t){
             free(nodes_to_print[1-is_1]);
             nodes_to_print[1-is_1] = malloc(sizeof(node)*32);
             is_1^=1;
-            printf("\n");
+	    printf(" ");
         }
+	printf("\n");
     }
 }
