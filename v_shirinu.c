@@ -54,19 +54,6 @@ void insert(tree* t,int data){
     }
 }
 
-int main(){
-    tree* Tree = malloc(sizeof(tree));
-    init(Tree);
-    int t,res=0;
-    for(int i=0;i<7;i++){
-        scanf("%d",&t);
-        insert(Tree,t);
-    }
-    printTree(Tree);
-    return 0;
-}
-
-
 void printTree(tree* t){
     if(t->root==0)
         printf("-\n");
@@ -107,4 +94,16 @@ void printTree(tree* t){
         }
 	printf("\n");
     }
+}
+
+int main(){
+    tree* Tree = malloc(sizeof(tree));
+    init(Tree);
+    int t,res=0;
+    for(int i=0;i<7;i++){
+        scanf("%d",&t);
+        insert(Tree,t);
+    }
+    printTree(Tree);
+    return 0;
 }
