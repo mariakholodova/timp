@@ -54,8 +54,9 @@ ___________________________
 | ------ | ------ | ------|
 | 5 | 3 4 5 6 7 | -31 | 
 
-Скрин работы:
-- [Скриншот 1](https://github.com/mariakholodova/timp/blob/pr2/pr2.PNG 'Тык')
+Скрины работы:
+- [Скриншот 1](https://github.com/mariakholodova/timp/blob/pr2/h21.PNG 'Тык')
+- [Скриншот 2](https://github.com/mariakholodova/timp/blob/pr2/h22.PNG 'Тык')
 
 
 
