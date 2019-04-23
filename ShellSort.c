@@ -6,23 +6,23 @@ int swaps=0,compares=0;
 
 void sorting(int* arr,size_t arr_len)
 {
-	int tmp;
-	for(int k = arr_len / 2; k > 0; k /= 2){
-		for(int i = k; i < arr_len; i++)
-        {
-            tmp = arr[i];
-            for(int j = i; j >= k; j -= k)
-            {
-            	compares++;
-                if(tmp < arr[j - k]){
-                    arr[j] = arr[j - k];
-                    swaps++;
-                }
-                else
-                    break;
-            }
-            arr[j] = tmp;
-        }
+	int tmp,j,i,k;
+	for(k = arr_len / 2; k > 0; k /= 2){
+		for(i = k; i < arr_len; i++)
+        	{
+            		tmp = arr[i];
+            		for(j = i; j >= k; j -= k)
+            		{
+            			compares++;
+				if(tmp < arr[j - k]){
+                    			arr[j] = arr[j - k];
+                    			swaps++;
+                		}
+                		else
+                    			break;
+            		}
+            	arr[j] = tmp;
+        	}
 	}
 }
 
