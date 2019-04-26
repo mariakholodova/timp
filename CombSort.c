@@ -37,7 +37,7 @@ int main(){
         int res_swaps=0,res_compares=0;
         for(int j=0;j<1000;j++){
             swaps=0;
-        	compares=0;
+            compares=0;
             int* arr=malloc(sizeof(int)*sizes[i]);
             for(int j=0;j<sizes[i];j++)
                 arr[j]=rand()%sizes[i];
