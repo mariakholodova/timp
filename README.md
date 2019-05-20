@@ -27,7 +27,7 @@
 
 Граф
 
-[![Graph]()]()
+[![Graph](https://github.com/mariakholodova/timp/blob/lab2/graph.png)](https://github.com/mariakholodova/timp/blob/lab2/graph.png)
 
 Результат работы программы  
 
