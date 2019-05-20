@@ -25,6 +25,13 @@
 
 #### Результат
 
+Граф
+
+[![Graph]()]()
+
+Результат работы программы  
+
+[![Скрин](https://github.com/mariakholodova/timp/blob/lab2/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD.PNG)](https://github.com/mariakholodova/timp/blob/lab2/%D0%A1%D0%BA%D1%80%D0%B8%D0%BD.PNG)
 
 
 
