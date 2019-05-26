@@ -39,16 +39,16 @@
 
 #### Результат
 
-Результат работы Сортировки "Расчески"
-[![Скрин1](https://github.com/mariakholodova/timp/blob/lab1/CombSort.png)](https://github.com/mariakholodova/timp/blob/lab1/CombSort.png, 'Тык')
+Результат работы Сортировки "Расчески" с представлением худшего и лучшего случая
+[![Скрин1](https://github.com/mariakholodova/timp/blob/lab1/%D0%A0%D0%B5%D0%B7%D0%A0%D0%B0%D1%81%D1%87%D0%B5%D1%81%D0%BA%D0%B0.PNG)](https://github.com/mariakholodova/timp/blob/lab1/%D0%A0%D0%B5%D0%B7%D0%A0%D0%B0%D1%81%D1%87%D0%B5%D1%81%D0%BA%D0%B0.PNG, 'Тык')
 
-Результат работы Сортировки Шелла
-[![Скрин2](https://github.com/mariakholodova/timp/blob/lab1/ShellSort.png)](https://github.com/mariakholodova/timp/blob/lab1/ShellSort.png, 'Тык')
+Результат работы Сортировки Шелла с представлением худшего и лучшего случая
+[![Скрин2](https://github.com/mariakholodova/timp/blob/lab1/%D0%A0%D0%B5%D0%B7%D0%A8%D0%B5%D0%BB%D0%BB%D0%B0.PNG)](https://github.com/mariakholodova/timp/blob/lab1/%D0%A0%D0%B5%D0%B7%D0%A8%D0%B5%D0%BB%D0%BB%D0%B0.PNG, 'Тык')
 
-Результат работы Быстрой сортировки
-[![Скрин3](https://github.com/mariakholodova/timp/blob/lab1/QuickSort.png)](https://github.com/mariakholodova/timp/blob/lab1/QuickSort.png, 'Тык')
+Результат работы Быстрой сортировки с представлением худшего и лучшего случая
+[![Скрин3](https://github.com/mariakholodova/timp/blob/lab1/%D0%A0%D0%B5%D0%B7%D0%91%D1%8B%D1%81%D1%82%D1%80%D0%B0%D1%8F.PNG)](https://github.com/mariakholodova/timp/blob/lab1/%D0%A0%D0%B5%D0%B7%D0%91%D1%8B%D1%81%D1%82%D1%80%D0%B0%D1%8F.PNG, 'Тык')
 
-Результат пирамидальной сортировки
-[![Скрин4](https://github.com/mariakholodova/timp/blob/lab1/PyramidSort.png)](https://github.com/mariakholodova/timp/blob/lab1/PyramidSort.png, 'Тык')
+Результат Пирамидальной сортировки с представлением худшего и лучшего случая
+[![Скрин4](https://github.com/mariakholodova/timp/blob/lab1/%D0%A0%D0%B5%D0%B7%D0%9F%D0%B8%D1%80%D0%B0%D0%BC%D0%B8%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F.PNG)](https://github.com/mariakholodova/timp/blob/lab1/%D0%A0%D0%B5%D0%B7%D0%9F%D0%B8%D1%80%D0%B0%D0%BC%D0%B8%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F.PNG, 'Тык')
 
 
