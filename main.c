@@ -92,7 +92,7 @@ int main(){
 
     int length = bruteforce(mas,n,stk,path);
     printf("%s", "Path: ");
-    printf("Length: %d\n", calc_length(mas,5,path));
+    printf("Length: %d\n", calc_length(mas,n,path));
 	for(int i=0;i<n;i++)
         printf("%d ", path[i]);
 	printf("\n");
