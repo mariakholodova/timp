@@ -14,6 +14,14 @@ int in_mas(int* mas,int size,int elem){
     return 0;
 }
 
+int calc_length(int** mas,int n,int* path){
+    int res=0;
+    for(int i=1;i<n;i++){
+        res+=mas[path[i-1]][path[i]]; 
+    }
+    return res; 
+}
+
 int calc_path(int** mas,int n,stack stk){
     int res=0;
     for(int i=1;i<n;i++){ 
@@ -84,6 +92,7 @@ int main(){
 
     int length = bruteforce(mas,n,stk,path);
     printf("%s", "Path: ");
+    printf("Length: %d\n", calc_length(mas,5,path));
 	for(int i=0;i<n;i++)
         printf("%d ", path[i]);
 	printf("\n");
