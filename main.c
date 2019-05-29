@@ -26,7 +26,7 @@ int calc_path(int** mas,int n,stack stk){
 
 int bruteforce(int** mas,int n,stack stk,int* path){
     int length=-1;
-    if(stk.pos==5){
+    if(stk.pos==n){
         
         int tmp = calc_path(mas,n,stk);
         
@@ -83,7 +83,6 @@ int main(){
     }
 
     int length = bruteforce(mas,n,stk,path);
-    printf("%s%d\n", "Way length = ",length);
     printf("%s", "Path: ");
 	for(int i=0;i<n;i++)
         printf("%d ", path[i]);
